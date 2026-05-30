@@ -70,6 +70,27 @@ cooking classes, caterer" />
     - custom css link
   -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Embedded CSS Styling -->
+    <style>
+        .footer-list {
+            justify-content: center; /* Centers horizontally */
+            align-items: center;     /* Centers vertically */
+            gap: 15px;               /* Adds spacing for text or extra icons */
+            
+            /* Example footer container constraints */
+            width: 100%;
+            padding: 20px 0;
+             }
+
+        .footer-list img {
+            width: 33px;             /* Explicit icon width */
+            height: 33px;            /* Explicit icon height */
+            border-bottom: 1cm;
+            object-fit: contain;     /* Prevents image distortion */
+            display: block;          /* Removes default bottom whitespace */
+        }
+    </style>
     <!-- 
     - preload images
   -->
@@ -244,12 +265,11 @@ cooking classes, caterer" />
         </nav>
 
         <a href="#" class="btn btn-secondary">
-          <span class="text text-1">Cooking Class <img src="lock.png" alt="login icon" width="20" height="20">
-    <!--<i class="icon brands fa-lock"></i>--></span>
+          <span class="text text-1">CC<img src="lock.png" alt="login icon" width="20" height="20">
+          </span>
 
-         <span class="text text-2" aria-hidden="true">Cooking Class
-          <!--<img src="lock.png" alt="Settings Icon" width="20" height="20">-->
-         <!--<i class="icon brands fa-lock"></i>--></span>
+         <span class="text text-2" aria-hidden="true">CC
+        </span>
         </a>
 
         <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
@@ -1533,32 +1553,32 @@ cooking classes, caterer" />
           <ul class="footer-list">
             <li>         
               <a href="https://www.facebook.com/ScoffMaster"> 
-                <img src="face.png" alt="facebook icon" width="30" height="30">
+                <img src="face.png" alt="facebook icon" width="33" height="33">
               </a>
             </li>
             <li>
               <a href="https://instagram.com/chef_rumbie?igshid=YmMyMTA2M2Y=">
-                      <img src="inst.png" alt="instagram icon" width="30" height="30">
+                      <img src="inst.png" alt="instagram icon" width="33" height="33">
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/chef-rumbie-7a3bb071/?originalSubdomain=zw">
-                  <img src="link.png" alt="linkedin icon" width="30" height="30">
+                  <img src="link.png" alt="linkedin icon" width="33" height="33">
               </a>
             </li>
             <li>
               <a href="https://x.com/ChefRumbie?s=20">
-                  <img src="x.png" alt="x icon" width="30" height="30">
+                  <img src="x.png" alt="x icon" width="33" height="33">
               </a>
             </li>
             <li>
               <a href="#">
-                 <img src="you.png" alt="youtube icon" width="30" height="30">
+                 <img src="you.png" alt="youtube icon" width="33" height="33">
               </a>
             </li>
             <li>
               <a href="#">
-                 <img src="loc.png" alt="location icon" width="30" height="30">
+                 <img src="loc.png" alt="location icon" width="33" height="33">
                </a>
             </li>
           </ul>
